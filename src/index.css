@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #dcf1fa;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Add this to your main styles file or create a new one */
+
+.star-filled,
+.star-half,
+.star-empty {
+  background-color: #1b1464;
+  border-radius: 50%;
+  padding: 7px;
+  margin-right: 5px;
+  color: #dcf1fa;
+  font-size: 32px !important;
+}
+
+.star-empty {
+  color: #dcf1fa; /* Empty star color */
+}
+
+@media (max-width: 720px) {
+  .star-filled,
+  .star-half,
+  .star-empty {
+    background-color: #1b1464;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 5px;
+    color: #dcf1fa;
+    font-size: 25px !important;
+  }
+}

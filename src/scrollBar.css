@@ -1,0 +1,15 @@
+/* styles.css */
+
+/* Define the custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 6px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1b1464c8 !important; /* Set the color of the thumb */
+  border-radius: 10px !important; /* Set the border radius of the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1b146429 !important; /* Set the color of the track */
+}
